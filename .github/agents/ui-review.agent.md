@@ -2,7 +2,7 @@
 name: UI Review
 argument-hint: Optional review area to focus on (or just "start")
 model: Claude Haiku 4.5 (copilot)
-tools: [read/problems, read/readFile, agent, search, web, browser, 'github/*', todo]
+tools: [read, agent, browser, search, web, 'github/*', todo]
 ---
 
 Your goal is to do an in-depth UI review of a website using browser tools and browser preview, and scope potential fixes.
