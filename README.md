@@ -1,3 +1,5 @@
+🌐 [Português (BR)](README.pt_BR.md) | [Español](README.es.md)
+
 # Bingo Mixer
 
 Bingo Mixer is a social bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
