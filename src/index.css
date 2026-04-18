@@ -1,11 +1,18 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@400;700&display=swap');
 
 @theme {
-  --color-accent: #2563eb;
-  --color-accent-light: #3b82f6;
-  --color-marked: #dcfce7;
-  --color-marked-border: #22c55e;
-  --color-bingo: #fbbf24;
+  --color-accent: #8B4513; /* Saddle brown */
+  --color-accent-light: #A0522D; /* Sienna */
+  --color-marked: #FFF8DC; /* Cream */
+  --color-marked-border: #DAA520; /* Goldenrod */
+  --color-bingo: #FFD700; /* Gold */
+  --color-coffee-brown: #8B4513;
+  --color-cream: #F5F5DC;
+  --color-parchment: #FAF0E6;
+  --color-wood: #DEB887;
+  --font-coffee-heading: 'Dancing Script', cursive;
+  --font-coffee-body: 'Crimson Text', serif;
 }
 
 html,
@@ -16,6 +23,6 @@ body,
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-coffee-body);
   -webkit-tap-highlight-color: transparent;
 }
